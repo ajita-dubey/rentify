@@ -5,51 +5,39 @@ import { GrShieldSecurity } from "react-icons/gr";
 
 function NewListing() {
   return (
-    <section className="flex items-center justify-center p-8 pt-12">
+    <section className="flex items-center justify-center md:p-8  md:pt-12 relative m-auto w-full max-w-[1265px] p-4">
       <div className="flex flex-col items-center ">
-        <div className="flex  pt-5 gap-5 rounded-lg pb-20">
-          <div className="border p-5">
+        <div className="flex md:flex-row flex-col pt-5 gap-5 rounded-lg pb-20">
+          <div className="border p-4 shadow-md rounded-md border-gray-300 max-w-[350px]">
             <AiOutlineHome size={25} />
-
-            <h1 className="text-2xl pt-1 pb-5">
+           <h1 className="text-2xl pt-1 pb-5">
               Thousands of new listings per year
             </h1>
             <p className="font-light">
-              Get access to India's largest portfolio of fee-paying{" "}
+              Get access to India's largest portfolio of fee-paying splits in both lettings and sales.{" "}
             </p>
-            <p className="font-light">splits in both lettings and sales.</p>
           </div>
-
-          <div className="border p-5">
+        <div className="border p-4 shadow-md rounded-md border-gray-300  max-w-[350px]">
             <GrShieldSecurity size={25} />
-
-            <h1 className="text-2xl pt-1">Each commission is secure and </h1>
-            <h1 className="text-2xl pb-5">guaranteed </h1>
+           <h1 className="text-2xl pt-1 pb-5">Each commission is secure and guaranteed</h1>
             <p className="font-light">
               See exactly what you are going to earn before each
+              deal-guaranteed.Track your earnings on a live dashboard.
             </p>
-            <p className="font-light ">
-              deal-guaranteed.Track your earnings on a live
-            </p>
-            <p className="font-light ">dashboard</p>
           </div>
-
-          <div className="border p-5">
+         <div className="border p-4 shadow-md rounded-md border-gray-300  max-w-[350px]">
             <IoSettingsOutline size={25} />
-
-            <h1 className="text-2xl  pt-1 pb-5">
+           <h1 className="text-2xl  pt-1 pb-5">
               Tools to help you transact more
             </h1>
             <p className="font-light">
               From viewings to paperwork and guarantor services.
-            </p>
-            <p className="font-light">
               we provide everything you need to close more deals.
             </p>
+           
           </div>
         </div>
-
-        <button className=" bg-red-700 text-white rounded-lg outline-none p-3 ml-3  ">
+       <button className=" bg-orange-600 text-white rounded-lg outline-none p-3 ml-3  ">
           {" "}
           Get started in minutes
         </button>

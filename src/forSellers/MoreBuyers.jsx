@@ -3,62 +3,63 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 function MoreBuyers() {
   return (
-    <section className=" flex  flex-col items-center justify-center  p-24 pb-6 ">
-      <h1 className="font-semibold text-5xl pt-3  ">Get more buyers via our</h1>
-      <h1 className="font-semibold text-5xl  "> unique partner agent</h1>
-      <h1 className="font-semibold text-5xl  ">network.</h1>
-      <p className="font-light pt-5 pb-5 text-[20px]">
-        Benefit from the 3,000+ partner agents who can earn a commission share
-        by introducing qualified buyers to your property.
-      </p>
-      <div className="flex  items-center pt-5 pb-6">
-        <div className=" flex  justify-center gap-y-5  h-full w-1/2">
-          <div>
-            <div className="flex gap-x-2  items-center">
-              <div className="flex   gap-x-2 ">
-                <FaCircleCheck  className="text-green-400" size={30} />
+       <section className="relative m-auto w-full max-w-[1265px] p-4">
+         <div  class="py-10 md:py-20">
+         <div>
+           <h1 class="m-auto mb-6 max-w-[22ch] text-center text-4xl font-bold md:text-5xl">
+           Get more buyers via our unique partner agent network. </h1>
+           <p class="text-center text-lg text-slate-700">
+           Benefit from the 3,000+ partner agents who can earn a commission share by introducing 
+           qualified buyers to your property. </p>
+           <div class="py-12">
+             <div class="relative mx-auto mb-5 grid w-full grid-cols-1 gap-10  md:grid-cols-2">
+               <div>
+                 <li class=" flex relative mt-2 list-none">
+                   <FaCircleCheck className="text-green-400" size={30} />
+                   <div class="pl-2">
+                     <h5 class="mb-1 text-xl font-bold">
+                     More buyers
+                     </h5>
+                     <span class="text-gray-700">
+                     Your property is seen by more buyers.
+                     </span>
+                   </div>
+                 </li>
+                 <li class=" flex relative mt-2 list-none">
+                   <FaCircleCheck className="text-green-400" size={35} />
+                   <div class="pl-2">
+                     <h5 class="mb-1 text-xl font-bold">
+                     Thousands of agents via a single point of contact
+                     </h5>
+                     <span class="text-gray-700">
+                     Benefit from the potential leads of thousands of agents via Scraye as the single point of contact.
+                     </span>
+                   </div>
+                 </li>
+                 <li class="flex relative mt-2 list-none">
+                   <FaCircleCheck className="text-green-400" size={50} />
+                   <div class="pl-2">
+                     <h5 class="mb-1 text-xl font-bold">
+                     No additional cost to you
+                     </h5>
+                     <span class="text-gray-700">
+                     Whether a buyer comes direct to us or via a partner agent, there is no additional cost to you for the commission paid to the agent.
+                     </span>
+                   </div>
+                 </li>
                </div>
                <div>
-               <span className="font-bold text-lg  text-center">More buyers</span>
-              <p className="font-light text-sm">
-                Your property is seen by more buyers.
-              </p>
+                 <img
+                   alt=""
+                   class="ml-auto w-full rounded-md object-cover marker:max-w-full md:max-h-[300px]"
+                   src="src/assets/partner-agent.jpg"
+                 />
                </div>
-               </div>
-            < div className="flex gap-x-2 items-center pt-3 ">
-              <div className="flex items-center gap-x-2 ">
-                <FaCircleCheck className="text-green-400"size={30} />
-                </div>
-                <div>
-                <span className="font-bold text-lg text-center ">
-                  Thousands of agents via a single point of contact
-                </span>
-             <p className="font-light text-sm">
-              Benefit from the potential leads of thousands of agents via Scraye as the single point
-             </p>
-              <p className="font-light text-sm">of contact.</p>
-                </div>
-               
-            </div>
-            <div className="flex gap-x-2 pt-3 items-center">
-              <div className="flex  gap-x-2 ">
-                <FaCircleCheck className="text-green-400"size={30} />
-                </div>
-                <div>
-                <span className="font-bold text-lg ">No additional cost to you</span>
-              
-              <p className="font-light text-sm">
-              Whether a buyer comes direct to us or via a partner agent, there is no </p>
-             <p className="font-light text-sm"> additional cost to you for the commission paid to the agent.</p>
-               </div>
-                 </div>
-          </div>
-        </div>
-        <div className="w-1/2">
-          <img src="src/assets/partner-agent.jpg" className="rounded-lg" />
-        </div>
-      </div>
-    </section>
+             </div>
+           </div>
+         </div>
+       </div>
+       </section>
   );
 }
 

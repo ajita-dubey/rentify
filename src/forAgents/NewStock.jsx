@@ -3,29 +3,30 @@ import NewListing from './NewListing'
 import SellYourStock from './SellYourStock'
 import LettingProtect from './LettingProtect'
 import LatestCommission from './LatestCommission'
-
+import ForAgentFaq from './ForAgentFaq'
 
 function NewStock() {
   return (
     <>
-        <section className=" flex items-center justify-center  relative p-24 pt-12">
-    <div className="flex  items-center  h-full">
-      <div className=" flex flex-col justify-center gap-y-5  p-5 h-full w-1/2">
+        <section className=" flex items-center justify-center  md:p-8  md:pt-12 relative m-auto w-full max-w-[1265px] p-4 ">
+    <div className="flex gap-x-10 h-full md:flex-row flex-col">
+      <div className=" flex flex-col justify-center gap-y-5  p-5 h-full md:w-1/2">
         <div>
-            <h1 className="font-semibold text-5xl pt-3 ">
-              Your one-stop shop for 
+            <h1 className="font-semibold md:text-left text-center text-5xl pb-6 ">
+              Your one-stop shop for new stock
             </h1>
-            <h1 className="font-semibold text-5xl  pb-6 ">
-              new stock
-            </h1>
-            <p className='font-light'>Access thounds of fee-paying listings to rent and for sale in</p>
-            <p className='font-light pb-8'>London.Each commission is guaranteed.Agent accounts are free.</p>
-            <button className=" bg-red-700 text-white rounded-lg outline-none  p-3  ">
+        <p className='font-light pb-8 md:text-left text-center'>Access thounds of fee-paying listings to rent and for sale in 
+            London.Each commission is guaranteed.Agent accounts are free.
+            </p>
+            <div className='w-full md:w-auto'>
+            <button className=" bg-orange-600 text-white rounded-lg outline-none  p-3  w-full md:w-auto ">
               Get started in minutes
             </button>
+            </div>
+           
           </div>
       </div>
-      <div className="w-1/2">
+      <div className="  pt-3 md:w-1/2">
         <img src="src/assets/client-img.png" className="rounded-lg" />
       </div>
     </div>
@@ -34,9 +35,8 @@ function NewStock() {
      <SellYourStock/>
      <LettingProtect/>
      <LatestCommission/>
-     
-
-    </>
+     <ForAgentFaq/>
+      </>
 
   )
 }
