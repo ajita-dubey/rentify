@@ -42,11 +42,11 @@ function SpendLess() {
           </div>
         </div>
         <div className='flex md:flex-row flex-col gap-y-2 mt-6 w-full md:w-auto'>
-        <button className=" bg-orange-600 text-white rounded-lg outline-none  p-3 cursor-pointer w-full md:w-auto">
+        <button className=" bg-orange-600 text-white rounded-lg outline-none  p-3 cursor-pointer w-full md:w-auto hover:bg-orange-500">
           Unlock existing deposit
         </button>
-        <button className=" text-orange-600 border border-orange-600 rounded-lg outline-none  p-3 md:ml-3 cursor-pointer md:w-auto
-         w-full">
+        <button className=" text-orange-600 border border-orange-600 rounded-lg outline-none 
+         p-3 md:ml-3 cursor-pointer md:w-auto w-full hover:bg-orange-500 hover:text-white">
          Search properties
         </button>
         </div>

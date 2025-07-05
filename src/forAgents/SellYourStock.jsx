@@ -23,7 +23,7 @@ function SellYourStock() {
                 type="text"
                 placeholder="What is your email?"
                 className=" rounded-lg p-2 border border-gray-400  "/>
-              <button className=" bg-orange-600 text-white rounded-lg outline-none p-2  ">
+              <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 hover:bg-orange-500 ">
                 Enquire about Lettings
               </button>
             </div>
@@ -40,7 +40,7 @@ function SellYourStock() {
               3.5%
               <span className="font-light text-sm"> + VAT</span>
             </h1>
-            <p className="font-light text-center pb-4">
+            <p className="font-light text-center pb-2">
              Lettings plus up to 12 months rent
              gurarantee and 100k in legal expense cover.
             </p>
@@ -49,7 +49,7 @@ function SellYourStock() {
                 type="text"
                 placeholder="What is your email?"
                 className=" rounded-lg p-2 border border-gray-400  "/>
-              <button className=" bg-orange-600 text-white rounded-lg outline-none p-2  ">
+              <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 hover:bg-orange-500 ">
                 Enquire about Protect
               </button>
             </div>
@@ -68,7 +68,7 @@ function SellYourStock() {
             <h1 className="text-xl  pb-5 text-center"> 0.75%
               <span className="font-light text-sm"> + VAT</span>
             </h1>
-            <p className="font-light text-center pb-4">
+            <p className="font-light text-center pb-2">
             Find a buyer via our extensive introducing agent network
             </p>
               <div className="flex flex-col gap-y-2">
@@ -77,7 +77,7 @@ function SellYourStock() {
                 placeholder="What is your email?"
                 className=" rounded-lg p-2 border border-gray-400  "
               />
-              <button className=" bg-orange-600 text-white rounded-lg outline-none p-2  ">
+              <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 hover:bg-orange-500 ">
                 Enquire about Sales
               </button>
             </div>
@@ -87,7 +87,7 @@ function SellYourStock() {
            <div className="flex items-center gap-2 py-1">  <MdCheck /> <p className="font-light">Viewings Monday-saturday</p></div>
            <div className="flex items-center gap-2 py-1">  <MdCheck /> <p className="font-light">Offer negotiation</p></div></div>
            </div>
-        <button className=" bg-orange-600 text-white rounded-lg outline-none p-3  ">
+        <button className=" bg-orange-600 text-white rounded-lg outline-none p-3 hover:bg-orange-500 ">
           Get started in minutes
         </button>
         </div>

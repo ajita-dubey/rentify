@@ -19,7 +19,7 @@ function SignIn() {
             className=" rounded-lg p-2  border border-gray-400 text-sm "
           />
           <p className="text-orange-500 text-right text-sm">Forgot password?</p>
-          <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 text-sm ">
+          <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 text-sm hover:bg-orange-500">
                 Sign in
                  </button>
                  <button className=" flex  items-center justify-center gap-x-2 bg-blue-500 text-white rounded-lg outline-none p-2 text-sm  ">

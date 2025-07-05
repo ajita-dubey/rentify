@@ -2,6 +2,7 @@ import React from 'react'
 import { IoGiftOutline } from "react-icons/io5";
 import { MdOutlineCelebration } from "react-icons/md";
 import { MdOutlineDeliveryDining } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 function Page3() {
   return (
@@ -34,7 +35,11 @@ function Page3() {
                         <p className='font-light pb-5'>to your home,on us.</p>
                       </div>
                    </div>
-               <button className=' bg-orange-600 text-white rounded-lg outline-none p-3 ml-3 cursor-pointer '>Open an account for free</button>
+                   <Link to='/signup'>
+                   <button className=' bg-orange-600 text-white rounded-lg outline-none p-3 ml-3 hover:bg-orange-500
+                cursor-pointer '>Open an account for free</button>
+                   </Link>
+
            </div>
            </section>
   )

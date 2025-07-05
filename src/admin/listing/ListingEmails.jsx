@@ -2,7 +2,7 @@ import React from 'react'
 
 function ListingEmails() {
   return (
-   <section className="flex  justify-center items-center p-8  pt-20">
+   <section className="flex justify-center items-center p-8  w-full">
          <div className="flex   items-center p-5 w-[500px] border rounded-md shadow-md border-zinc-300">
            <form className="flex flex-col w-full">
              <h1 className="font-semibold text-2xl pb-3">Listing commission emails</h1>

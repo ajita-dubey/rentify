@@ -3,11 +3,13 @@ import { FaIndianRupeeSign } from "react-icons/fa6";
 import { LuBedDouble } from "react-icons/lu";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { RxDimensions } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 function Card(props) {
+  // console.log(props);
   return (
-    <div className="border border-gray-400 shadow-md rounded-xl relative">
-      <img src={props.imgSrc} className="w-[370px] h-[200px] rounded-t-xl" />
+    <Link to={`/property/${props.id}`} className="border border-gray-400 shadow-md rounded-xl relative">
+      <img src={props.imgSrc} className="md:w-[350px] md:h-[200px] rounded-t-xl" />
       <div className=" flex flex-col gap-y-2 p-4">
         <p className="font-light">
           <span className="pr-2">Available now. {props.available}</span>
@@ -45,7 +47,7 @@ function Card(props) {
           </div>:null}
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

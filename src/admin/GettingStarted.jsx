@@ -65,7 +65,7 @@ function GettingStarted() {
             </div>
           </div>
 
-          <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 text-sm ">
+          <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 text-sm  hover:bg-orange-500">
             Get started
           </button>
         </div>

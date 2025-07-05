@@ -6,7 +6,7 @@ import RentGuarantorFaq from "./RentGuarantorFaq";
 function RentWithoutGaurantor() {
   return (
     <>
-      <section className=" flex items-center justify-center bg-green-200 relative p-4 md:p-8  md:pt-12">
+      <section className=" flex items-center justify-center -z-10 relative p-4 md:p-8  md:pt-12">
         <div className=" max-w-[1265px]">
           <div className="flex md:flex-row flex-col w-full  gap-x-10 h-full ">
             <div className=" flex flex-col justify-center gap-y-5  p-5 h-full md:w-1/2 ">
@@ -19,7 +19,7 @@ function RentWithoutGaurantor() {
                   you love.{" "}
                 </p>
                 <div className="w-full md:w-auto ">
-                  <button className=" bg-orange-600 text-white rounded-lg outline-none p-3 w-full md:w-auto">
+                  <button className=" bg-orange-600 text-white rounded-lg outline-none p-3 w-full md:w-auto  hover:bg-orange-500">
                     Search properties
                   </button>
                 </div>

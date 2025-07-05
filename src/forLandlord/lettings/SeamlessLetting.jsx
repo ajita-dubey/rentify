@@ -8,7 +8,7 @@ import FaqSection from './FaqSection'
 function SeamlessLetting() {
   return (
     <>
-    <section className=" flex items-center justify-center p-4 md:p-8  md:pt-12  ">
+    <section className=" flex items-center justify-center p-4 md:p-8  md:pt-12 max-w-[1265px] ">
      <div className="flex justify-between h-full md:gap-x-7 md:flex-row flex-col">
        <div className=" flex flex-col justify-center gap-y-7 md:w-1/2 h-full p-2">
          <div>
@@ -23,7 +23,7 @@ function SeamlessLetting() {
              placeholder="Enter your email"
              className=" rounded-lg p-2 border border-gray-400 "
            />
-           <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 ml-3 ">
+           <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 ml-3 hover:bg-orange-500 ">
              Enquire
            </button>
             </div>

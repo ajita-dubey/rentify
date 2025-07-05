@@ -2,54 +2,143 @@ import React from "react";
 import { RiSofaLine } from "react-icons/ri";
 import SimilarProperties from "./SimilarProperties";
 import Room from "./Room";
-
+import { Link, Element } from 'react-scroll';
+import BottomBar from "./BottomBar";
 
 function PropertyView() {
   return (
-    <section className="flex items-center p-8  pt-12">
-      <div className="flex flex-col items-center">
-        <div className="flex gap-x-2 p-8">
-          <div className=" object-cover md:w-1/2">
-            <img src="src/assets/bedroom.jpg" />
+    <section className="flex items-center md:p-8  p-2  pt-4 w-full">
+      <div className="flex flex-col items-center w-full">
+        <div className="flex gap-x-2 md:flex-row flex-col w-full">
+          <div className=" object-cover md:w-1/2 w-full">
+            <img src="https://assets.scraye.com/photos/original-1024/67f69ba565bec4e49d7cb0a9_5f8aa959120ac22356242d7b2e7df23aba2f1aa7d150d7869b708fc6d3913153.jpg" />
           </div>
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 w-full">
             <div className="flex gap-x-2">
               <div className=" object-cover">
-                <img src="src/assets/kitchen.jpg" />
+                <img src="https://assets.scraye.com/photos/original-1024/67f69ba565bec4e49d7cb0a9_097779f775e90f4d120cebb20c0ab22914bc7cb38e6d504ff9dc4d5c02129201.jpg" />
               </div>
               <div className=" object-cover ">
-                <img src="src/assets/bathroom.jpg" />
+                <img src="https://assets.scraye.com/photos/original-1024/67f69ba565bec4e49d7cb0a9_3552a95b7d224336a300eb965081d2a76c10570432f733bdfb0218cfc16fbf64.jpg" />
               </div>
             </div>
             <div className="flex gap-x-2 ">
               <div className=" object-cover ">
-                <img src="src/assets/building.jpg" />
+                <img src="https://assets.scraye.com/photos/original-1024/67f69ba565bec4e49d7cb0a9_b08c7786b33e3ea1ae5d00d4c240bd52265fc7587e109f8570f63b6eb0aea467.jpg" />
               </div>
               <div className=" object-cover ">
-                <img src="src/assets/living area.jpg" />
+                <img src="https://assets.scraye.com/photos/original-1024/67f69ba565bec4e49d7cb0a9_175d41d6c7e3a277510f4b3e7efccb774f7aa7a89c649f195ebffcd8d3e8eadf.jpg" />
               </div>
             </div>
           </div>
         </div>
-        <div className=" p-8 w-full">
-          <div className="flex gap-x-8">
-            <span className="font-light p-4">Summary</span>
-            <span className="font-light p-4">Payment</span>
-            <span className="font-light p-4">Deposit</span>
-            <span className="font-light p-4">360 tour</span>
-            <span className="font-light p-4">Video tour</span>
-            <span className="font-light p-4">Similar</span>
-            <span className="font-light p-4">Rooms</span>
-            <span className="font-light p-4">Loaction</span>
-            <span className="font-light p-4">Street</span>
+        <div className=" p-4 w-full">
+          <div className="flex sticky top-0 bg-white p-4 pl-0 z-10 h-16 overflow-x-auto">
+            <Link
+              className="font-light p-4 py-2 pl-0"
+              activeClass="text-orange-600 font-semibold border-b-2 border-orange-600"
+              to="summary"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-64}
+            >
+              Summary
+            </Link>
+            <Link
+              className="font-light p-4 py-2"
+              activeClass="text-orange-600 font-semibold border-b-2 border-orange-600"
+              to="payment"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-64}
+            >
+              Payment
+            </Link>
+            <Link
+              className="font-light p-4 py-2"
+              activeClass="text-orange-600 font-semibold border-b-2 border-orange-600"
+              to="deposit"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-64}
+            >
+              Deposit
+            </Link>
+            {/* <Link
+              className="font-light p-4 py-2"
+              activeClass="text-orange-600 font-semibold border-b-2 border-orange-600"
+              to="tour360"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              360 tour
+            </Link>
+            <Link
+              className="font-light p-4 py-2"
+              activeClass="text-orange-600 font-semibold border-b-2 border-orange-600"
+              to="videotour"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Video tour
+            </Link> */}
+            <Link
+              className="font-light p-4 py-2"
+              activeClass="text-orange-600 font-semibold border-b-2 border-orange-600"
+              to="similar"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-64}
+            >
+              Similar
+            </Link>
+            <Link
+              className="font-light p-4 py-2"
+              activeClass="text-orange-600 font-semibold border-b-2 border-orange-600"
+              to="rooms"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-64}
+            >
+              Rooms
+            </Link>
+            {/* <Link
+              className="font-light p-4 py-2"
+              activeClass="text-orange-600 font-semibold border-b-2 border-orange-600"
+              to="location"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Location
+            </Link>
+            <Link
+              className="font-light p-4 py-2"
+              activeClass="text-orange-600 font-semibold border-b-2 border-orange-600"
+              to="street"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Street
+            </Link> */}
           </div>
-          <div>
-            <div className="flex gap-x-10">
-              <div className="mt-5 w-[844px]">
-                <h1 className="font-bold text-xl">
+          <div className=" ">
+            <div className="flex md:gap-x-10 ">
+              <div className="mt-5 md:w-[844px] w-full
+              ">
+                <Element name="summary">
+                <h1 className="font-bold text-2xl text-wrap w-full">
                   Studio to rent on Victoria Road, London
                 </h1>
-                <div className=" flex items-center  flex-wrap gap-3 mt-4">
+                <div className=" flex items-center justify-around w-full flex-wrap mt-4">
                   <div className="flex items-center gap-x-5">
                     <RiSofaLine size={35} />
                     <span>Furnished</span>
@@ -231,7 +320,8 @@ function PropertyView() {
                     </div>
                   </div>
                 </div>
-                <div class=" mt-4 mb-8 border-t border-solid border-slate-200 pt-8">
+                </Element>
+                <Element name="payment" class=" mt-4 mb-8 border-t border-solid border-slate-200 pt-8">
                   <h3 class="mb-8 text-center text-2xl font-bold">
                     Rent payment options
                   </h3>
@@ -342,7 +432,8 @@ function PropertyView() {
                       <span class="hover:underline">Learn more.</span>
                     </p>
                   </div>
-                </div>
+                </Element>
+                <Element name="deposit">
                 <div class="mb-8 border-t border-solid border-slate-200 pt-8">
                   <h3 class="mb-8 text-center text-2xl font-bold">
                     Security deposit
@@ -377,91 +468,170 @@ function PropertyView() {
                       <ul class="list-inside list-disc text-slate-400 ">
                         <li>Fee of £1,971.69 instead of £5,538.46 deposit</li>
                         <li>Security deposit of £5,538.46 paid by Rentify</li>
-                        <li>Rentify receives its deposit back at tenancy end</li>
+                        <li>
+                          Rentify receives its deposit back at tenancy end
+                        </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                <SimilarProperties/>
-                <Room/>
-              </div>
-              <div>
-              <div className="sticky top-20 block ">
-                <div class="relative mb-8 w-full rounded-xl border border-solid border-slate-300 p-4 md:max-w-[340px]">
-                  <div class="flex flex-col gap-4">
-                    <div class="flex flex-col">
-                      <div class="flex flex-row flex-wrap justify-between">
-                        <p class="text-lg font-bold">Price</p>
-                        <p class="text-lg font-bold">£4,800pcm</p>
+                </Element>
+                <Element name="price-viewing">
+                <div className="md:hidden block">
+                  <div class="relative mb-8 w-full rounded-xl border border-solid border-slate-300 p-4 md:max-w-[340px]">
+                    <div class="flex flex-col gap-4">
+                      <div class="flex flex-col">
+                        <div class="flex flex-row flex-wrap justify-between">
+                          <p class="text-lg font-bold">Price</p>
+                          <p class="text-lg font-bold">£4,800pcm</p>
+                        </div>
+                        <div class="flex flex-row flex-wrap justify-between">
+                          <p>Available</p>
+                          <p>April 18, 2025</p>
+                        </div>
                       </div>
-                      <div class="flex flex-row flex-wrap justify-between">
-                        <p>Available</p>
-                        <p>April 18, 2025</p>
+                      <hr />
+                      <div class="flex flex-row gap-1 rounded-md border border-solid border-slate-300 p-1">
+                        <div class="flex flex-1 justify-center">
+                          <button class="w-full rounded p-2 text-center font-bold text-gray-500 hover:bg-gray-100">
+                            With Deposit
+                          </button>
+                        </div>
+                        <div class="flex flex-1 justify-center">
+                          <button class="w-full rounded p-2 text-center font-bold hover:bg-gray-100 bg-[#00769a1f] text-[#00769a]">
+                            Deposit Free
+                          </button>
+                        </div>
                       </div>
+                      <p class="flex flex-col gap-1">
+                        <div class="flex flex-row flex-wrap justify-between">
+                          <p>Deposit Free fee</p>
+                          <p>£1,971.69</p>
+                        </div>
+                        <div class="flex flex-row flex-wrap justify-between">
+                          <p class="text-base font-bold">
+                            Security deposit from tenant
+                          </p>
+                          <p class="text-base font-bold">£0</p>
+                        </div>
+                        <hr class="my-2" />
+                        <div class="flex flex-row flex-wrap justify-between">
+                          <p>Security deposit from Renitfy</p>
+                          <p>£5,538.46</p>
+                        </div>
+                      </p>
                     </div>
-                    <hr />
-                    <div class="flex flex-row gap-1 rounded-md border border-solid border-slate-300 p-1">
-                      <div class="flex flex-1 justify-center">
-                        <button class="w-full rounded p-2 text-center font-bold text-gray-500 hover:bg-gray-100">
-                          With Deposit
-                        </button>
-                      </div>
-                      <div class="flex flex-1 justify-center">
-                        <button class="w-full rounded p-2 text-center font-bold hover:bg-gray-100 bg-[#00769a1f] text-[#00769a]">
-                          Deposit Free
-                        </button>
-                      </div>
-                    </div>
-                    <p class="flex flex-col gap-1">
-                      <div class="flex flex-row flex-wrap justify-between">
-                        <p>Deposit Free fee</p>
-                        <p>£1,971.69</p>
-                      </div>
-                      <div class="flex flex-row flex-wrap justify-between">
-                        <p class="text-base font-bold">
-                          Security deposit from tenant
-                        </p>
-                        <p class="text-base font-bold">£0</p>
-                      </div>
-                      <hr class="my-2" />
-                      <div class="flex flex-row flex-wrap justify-between">
-                        <p>Security deposit from Renitfy</p>
-                        <p>£5,538.46</p>
-                      </div>
-                    </p>
-                  </div>
-                  <div class="mt-2 flex flex-col gap-1">
-                    <hr class="my-2 w-full" />
-                    <span>
-                      To arrange a viewing, please contact us at{" "}
-                      <a class="underline" href="tel:+442038354300">
-                        +442038354300
-                      </a>{" "}
-                      or{" "}
-                      <a class="underline" href="mailto:hello@scraye.com">
-                        hello@rentify.com
-                      </a>
-                      .
-                    </span>
-                    <hr class="my-2 w-full" />
-                    <span
-                      class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium 
+                    <div class="mt-2 flex flex-col gap-1">
+                      <hr class="my-2 w-full" />
+                      <span>
+                        To arrange a viewing, please contact us at{" "}
+                        <a class="underline" href="tel:+442038354300">
+                          +442038354300
+                        </a>{" "}
+                        or{" "}
+                        <a class="underline" href="mailto:hello@scraye.com">
+                          hello@rentify.com
+                        </a>
+                        .
+                      </span>
+                      <hr class="my-2 w-full" />
+                      <span
+                        class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium 
                     transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border
                      border-solid  border-orange-700
                  bg-white text-orange-700 shadow-sm hover:bg-red-50 active:text-scraye-orange disabled:border-slate-300
                   disabled:text-slate-900
                    cursor-pointer   h-9 px-3 py-2"
-                    >
-                      Make an offer
-                    </span>
+                      >
+                        Make an offer
+                      </span>
+                    </div>
+                  </div>
+                </div> 
+                </Element>
+                           
+            <Element name="similar"> <SimilarProperties /></Element> 
+            <Element name="rooms"> <Room /></Element>  
+               
+              </div>
+              <div>
+                <div className="sticky top-20 md:block hidden z-50 ">
+                  <div class="relative mb-8 w-full rounded-xl border border-solid border-slate-300 p-4 md:max-w-[340px]">
+                    <div class="flex flex-col gap-4">
+                      <div class="flex flex-col">
+                        <div class="flex flex-row flex-wrap justify-between">
+                          <p class="text-lg font-bold">Price</p>
+                          <p class="text-lg font-bold">£4,800pcm</p>
+                        </div>
+                        <div class="flex flex-row flex-wrap justify-between">
+                          <p>Available</p>
+                          <p>April 18, 2025</p>
+                        </div>
+                      </div>
+                      <hr />
+                      <div class="flex flex-row gap-1 rounded-md border border-solid border-slate-300 p-1">
+                        <div class="flex flex-1 justify-center">
+                          <button class="w-full rounded p-2 text-center font-bold text-gray-500 hover:bg-gray-100">
+                            With Deposit
+                          </button>
+                        </div>
+                        <div class="flex flex-1 justify-center">
+                          <button class="w-full rounded p-2 text-center font-bold hover:bg-gray-100 bg-[#00769a1f] text-[#00769a]">
+                            Deposit Free
+                          </button>
+                        </div>
+                      </div>
+                      <p class="flex flex-col gap-1">
+                        <div class="flex flex-row flex-wrap justify-between">
+                          <p>Deposit Free fee</p>
+                          <p>£1,971.69</p>
+                        </div>
+                        <div class="flex flex-row flex-wrap justify-between">
+                          <p class="text-base font-bold">
+                            Security deposit from tenant
+                          </p>
+                          <p class="text-base font-bold">£0</p>
+                        </div>
+                        <hr class="my-2" />
+                        <div class="flex flex-row flex-wrap justify-between">
+                          <p>Security deposit from Renitfy</p>
+                          <p>£5,538.46</p>
+                        </div>
+                      </p>
+                    </div>
+                    <div class="mt-2 flex flex-col gap-1">
+                      <hr class="my-2 w-full" />
+                      <span>
+                        To arrange a viewing, please contact us at{" "}
+                        <a class="underline" href="tel:+442038354300">
+                          +442038354300
+                        </a>{" "}
+                        or{" "}
+                        <a class="underline" href="mailto:hello@scraye.com">
+                          hello@rentify.com
+                        </a>
+                        .
+                      </span>
+                      <hr class="my-2 w-full" />
+                      <span
+                        class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium 
+                    transition-colors focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 border
+                     border-solid  border-orange-700
+                 bg-white text-orange-700 shadow-sm hover:bg-red-50 active:text-scraye-orange disabled:border-slate-300
+                  disabled:text-slate-900
+                   cursor-pointer   h-9 px-3 py-2"
+                      >
+                        Make an offer
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
-              </div>
-              </div>
+            </div>
           </div>
         </div>
       </div>
+      <BottomBar isVerified={true} price="1200"/>
     </section>
   );
 }

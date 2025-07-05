@@ -43,7 +43,7 @@ function LettingProtect() {
           <img src="src/assets/group-img.png" className="rounded-lg" />
         </div>
       </div>
-      <button className=" bg-orange-600 text-white rounded-lg outline-none  p-3 mt-8 ">
+      <button className=" bg-orange-600 text-white rounded-lg outline-none  p-3 mt-8 hover:bg-orange-500 ">
         Get started in minutes
       </button>
     </section>

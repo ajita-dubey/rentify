@@ -37,7 +37,7 @@ function NewListing() {
            
           </div>
         </div>
-       <button className=" bg-orange-600 text-white rounded-lg outline-none p-3 ml-3  ">
+       <button className=" bg-orange-600 text-white rounded-lg outline-none p-3 ml-3 hover:bg-orange-500 ">
           {" "}
           Get started in minutes
         </button>

@@ -46,7 +46,7 @@ function FastLettings() {
              placeholder="Enter your email"
              className=" rounded-lg p-2 border border-gray-400 "
            />
-           <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 ml-3 ">
+           <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 ml-3 hover:bg-orange-500 ">
              Enquire
            </button>
            </div>

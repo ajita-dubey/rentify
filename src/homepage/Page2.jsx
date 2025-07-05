@@ -2,6 +2,8 @@ import React from 'react'
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { IoGiftOutline } from "react-icons/io5";
 import { MdOutlineCelebration } from "react-icons/md";
+import { Link } from 'react-router-dom';
+
 function Page2() {
   return (
     <section className='flex items-center justify-center p-8 pt-12'>
@@ -16,9 +18,9 @@ function Page2() {
                     <p className='font-light'>Pay your rent via Rentify at most homes and earn</p> 
                        <p className='font-light'> points.Redeem points for air miels,gift cards,</p> 
                        <p className='font-light pb-5'>discounts and more</p> 
-                    <button className='text-red-500 flex gap-2 items-center  cursor-pointer'> <span>Learn more</span>
+                    {/* <button className='text-red-500 flex gap-2 items-center  cursor-pointer'> <span>Learn more</span>
                         <span><FaRegArrowAltCircleRight /></span>
-                    </button>
+                    </button> */}
                      </div>
 
                  <div className='border p-5'>
@@ -27,12 +29,16 @@ function Page2() {
                      <h1 className='text-2xl pb-5'>Rentify</h1>
                      <p className='font-light'>Earn 50% more points when you rent via Rentify and</p>
                      <p className='font-light pb-5'>get rewarded even faster</p> 
-                     <button className='text-red-500 flex gap-2 items-center cursor-pointer'> <span>Learn more</span>
+                     {/* <button className='text-red-500 flex gap-2 items-center cursor-pointer'> <span>Learn more</span>
                      <span><FaRegArrowAltCircleRight /></span>
-                     </button>
+                     </button> */}
                  </div>
                 </div>
-            <button className=' bg-orange-600 text-white rounded-lg outline-none p-3 ml-3 cursor-pointer'>Open an account for free</button>
+                <Link to="/signup">
+                <button className=' bg-orange-600 text-white rounded-lg outline-none hover:bg-orange-500
+             p-3 ml-3 cursor-pointer'>Open an account for free</button>
+                </Link>
+
         </div>
        </section>
   )

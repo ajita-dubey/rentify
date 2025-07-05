@@ -8,7 +8,7 @@ import ForAgentFaq from './ForAgentFaq'
 function NewStock() {
   return (
     <>
-        <section className=" flex items-center justify-center  md:p-8  md:pt-12 relative m-auto w-full max-w-[1265px] p-4 ">
+        <section className=" flex items-center justify-center  md:p-8  md:pt-12 m-auto w-full max-w-[1265px] p-4 ">
     <div className="flex gap-x-10 h-full md:flex-row flex-col">
       <div className=" flex flex-col justify-center gap-y-5  p-5 h-full md:w-1/2">
         <div>
@@ -19,7 +19,7 @@ function NewStock() {
             London.Each commission is guaranteed.Agent accounts are free.
             </p>
             <div className='w-full md:w-auto'>
-            <button className=" bg-orange-600 text-white rounded-lg outline-none  p-3  w-full md:w-auto ">
+            <button className=" bg-orange-600 text-white rounded-lg outline-none  p-3  w-full md:w-auto hover:bg-orange-500 ">
               Get started in minutes
             </button>
             </div>

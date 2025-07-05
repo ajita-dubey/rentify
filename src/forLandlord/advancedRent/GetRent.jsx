@@ -19,12 +19,11 @@ function GetRent() {
         <p className='font-light pb-5  md:text-left text-center'>With Rentify Advanced Rent, landlords get paid upfront
            whilst tenants still pay monthly.</p>
            <div className='md:max-w-[250px] md:block flex items-center justify-center w-full'>
-           <button className=" bg-orange-600 text-white rounded-lg outline-none  p-3  ">
+           <button className=" bg-orange-600 text-white rounded-lg outline-none  p-3 hover:bg-orange-500 ">
           Get started in minutes
         </button>
            </div>
-       
-      </div>
+       </div>
   </div>
   <div className= " md:w-1/2">
     <img src="src/assets/landlords-advanced-rent.jpg" className="rounded-lg" />
@@ -36,7 +35,6 @@ function GetRent() {
 <InstantQuote/>
 <HowToQualify/>
 <AdvanceRentFaq/>
-
 </>
 
   )

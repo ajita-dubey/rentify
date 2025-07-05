@@ -21,7 +21,7 @@ function LettingServices() {
                    type="text"
                    placeholder="Enter your email"
                    className=" rounded-lg p-2 border border-gray-400  "/>
-                 <button className=" bg-orange-600 text-white rounded-lg outline-none p-2  ">
+                 <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 hover:bg-orange-500 ">
                    Enquire about Lettings for BTR
                  </button>
                </div>
@@ -38,7 +38,7 @@ function LettingServices() {
                <h1 className="text-2xl  pb-5 text-center"> 5.0%
                  <span className="font-light text-sm"> + VAT</span>
                </h1>
-               <p className="font-light text-center pb-4">
+               <p className="font-light text-center pb-2">
                For landlords who manage themselves and need  help securing tenants.
               </p>
                 <div className="flex flex-col gap-y-2">
@@ -46,7 +46,7 @@ function LettingServices() {
                    type="text"
                    placeholder="what is your email?"
                    className=" rounded-lg p-2 border border-gray-400  "/>
-                 <button className=" bg-orange-600 text-white rounded-lg outline-none p-2  ">
+                 <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 hover:bg-orange-500 ">
                    Enquire about Lettings
                  </button>
                </div>
@@ -62,7 +62,7 @@ function LettingServices() {
                <h1 className="text-2xl  pb-5 text-center"> 10.0%
                  <span className="font-light text-sm"> + VAT</span>
                </h1>
-               <p className="font-light pb-4">
+               <p className="font-light pb-2">
                For landlords looking for a hassle-free, fully managed service.
                </p>
                  <div className="flex flex-col gap-y-2">
@@ -71,7 +71,7 @@ function LettingServices() {
                    placeholder="what is your email?"
                    className=" rounded-lg p-2 border border-gray-400  "
                  />
-                 <button className=" bg-orange-600 text-white rounded-lg outline-none p-2  ">
+                 <button className=" bg-orange-600 text-white rounded-lg outline-none p-2 hover:bg-orange-500 ">
                    Enquire about Managed Lettings
                  </button>
                </div>

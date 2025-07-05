@@ -5,7 +5,7 @@ import LandlordFaq from './LandlordFaq'
 function LandlordToRentify() {
   return (
     <>
-     <section className=" flex flex-col items-center justify-center   relative pt-12 p-4 md:p-8  md:pt-12">
+     <section className=" flex flex-col items-center justify-center -z-10 pt-12 p-4 md:p-8  md:pt-12">
           <h1 className="font-semibold text-4xl text-center text-slate-700 pt-3 pb-6 " >Refer a Landlord or Agent to Rentify  </h1>
         <h2 className='font-bold text-slate-600  text-lg text-center'>It takes just 30 seconds and we’ll say thanks 
           with an Amazon voucher! </h2>
@@ -20,10 +20,10 @@ function LandlordToRentify() {
            <span className="font-bold "> How it refer:</span>automatically generate an introduction email by picking landlord or agent. Pop in the email of your landlord/agent, check you’re happy with the text and click send!</p>
            
            <div className='flex flex-col items-center mt-6 w-full  '>
-           <button className=" bg-orange-600 text-white rounded-lg outline-none p-3 w-full max-w-[300px]  ">
+           <button className=" bg-orange-600 text-white rounded-lg outline-none p-3 w-full max-w-[300px] hover:bg-orange-500  ">
              Introduce a landlord
             </button> 
-            <button className=" bg-teal-600 text-white rounded-lg outline-none p-3 mt-2 w-full max-w-[300px] ">
+            <button className=" bg-teal-600 text-white rounded-lg outline-none p-3 mt-2 w-full max-w-[300px] hover:bg-teal-500  ">
             Introduce an agent
             </button>
              </div> 

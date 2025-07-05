@@ -3,6 +3,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { LuClock4 } from "react-icons/lu";
 import { MdCurrencyPound } from "react-icons/md";
 import { GoVerified } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 function Page4(props) {
   return (
@@ -39,17 +40,20 @@ function Page4(props) {
             <p className="font-light">
               security deposit to the landlord.You pay a simple, </p>
             <p className="font-light pb-5">affordable fee instead</p>
-            <button className="text-red-500 flex gap-2 items-center cursor-pointer ">
+            {/* <button className="text-red-500 flex gap-2 items-center cursor-pointer ">
               <span>Learn more</span>
               <span>
                 <FaRegArrowAltCircleRight />
               </span>
-            </button>
+            </button> */}
           </div>
         </div>
-     <button className=" bg-orange-600 text-white rounded-lg outline-none p-3 ml-3 cursor-pointer ">
+        <Link to="/rent/delhi">
+        <button className=" bg-orange-600 text-white rounded-lg outline-none p-3 ml-3 hover:bg-orange-500 cursor-pointer ">
           Search properties for rent
         </button>
+        </Link>
+
       </div>
     </section>
   );
