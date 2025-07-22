@@ -1,5 +1,5 @@
 import React from 'react'
-import MultipleImeges from '../RentProperty/MultipleImeges'
+import MultipleImeges from '../rentProperty/MultipleImeges'
 import PropertySearchBar from '../PropertySearchBar'
 
 function SaletoProperty() {
