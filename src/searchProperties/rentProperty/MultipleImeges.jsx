@@ -136,7 +136,7 @@ function MultipleImeges({rooms}) {
     <section className="flex items-center justify-center md:p-8  p-2 -z-10">
       <div className="flex flex-col w-full ">
         <div className=" flex  justify-between  items-center py-3 md:py-0 w-full">
-          <p className="font-bold md:text-lg  ">{rooms.length} results in {cityname} </p>
+          <p className="font-bold md:text-lg  ">{rooms?.length} results in {cityname} </p>
           <div className="flex gap-x-2">
             <Sorting sortingState={sortingState} setsortingState={setsortingState}/>
             <Order />
