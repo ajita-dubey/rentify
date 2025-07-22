@@ -69,7 +69,7 @@ function Front() {
           </div>
         </div>
         <div className="md:w-1/2">
-          <img src="src/assets/image.png" className="rounded-lg" />
+          <img src="./assets/image.png" className="rounded-lg" />
         </div>
       </div>
     </section>

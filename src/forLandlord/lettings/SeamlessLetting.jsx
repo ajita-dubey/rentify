@@ -29,7 +29,7 @@ function SeamlessLetting() {
             </div>
        </div>
        <div className=" md:p-0  md:w-1/2">
-         <img src="src/assets/landlords.jpg" />
+         <img src="./assets/landlords.jpg" />
        </div>
      </div>
    </section>

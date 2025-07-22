@@ -24,7 +24,7 @@ function SimplerSales() {
              </div>
       </div>
       <div className="pt-3 md:w-1/2">
-        <img src="src/assets/simpler-sales.jpg" className="rounded-lg" />
+        <img src="./assets/simpler-sales.jpg" className="rounded-lg" />
       </div>
     </div>
   </section>

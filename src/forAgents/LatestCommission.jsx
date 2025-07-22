@@ -16,13 +16,13 @@ function LatestCommission() {
            </div>
            <div className="flex  pt-5 gap-5 rounded-lg pb-20 md:flex-row flex-col">
 
-           <Card imgSrc="src/assets/pic1.jpeg"
+           <Card imgSrc="./assets/pic1.jpeg"
            available=" " furnished={true} location="Royal Drive, N11" size="1325" beds="3" price="2000"/>
 
-            <Card imgSrc="src/assets/pic2.jpeg"
+            <Card imgSrc="./assets/pic2.jpeg"
            available=" " furnished={true} location="Highgate Hill, N19" size="517" beds="1" price="1000"/>
 
-            <Card imgSrc="src/assets/pic3.jpg"
+            <Card imgSrc="./assets/pic3.jpg"
            available=" " furnished={true} location="Highgate Hill, N19" size="492" beds="1" price="1000"/>
 
            </div>

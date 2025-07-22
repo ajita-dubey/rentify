@@ -13,7 +13,7 @@ function HowMuchCost() {
       </h3>
       <div class="m-auto mt-20 grid grid-cols-1 gap-x-10 md:grid-cols-2 ">
         <div>
-          <img src="src/assets/cost-calculator.jpg" alt="" />
+          <img src="./assets/cost-calculator.jpg" alt="" />
         </div>
         <div>
           <h4 class="text-2xl font-bold">Get a quote</h4>

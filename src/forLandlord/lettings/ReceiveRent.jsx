@@ -61,7 +61,7 @@ function ReceiveRent() {
               <img
                 alt=""
                 class="ml-auto w-full rounded-md object-cover marker:max-w-full md:max-h-[300px]"
-                src="src/assets/void-payments.jpg"
+                src="./assets/void-payments.jpg"
               />
             </div>
           </div>

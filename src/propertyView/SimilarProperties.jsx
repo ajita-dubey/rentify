@@ -21,7 +21,7 @@ function SimilarProperties(props) {
               commission="5"
             />
             <Card
-              imgSrc="src/assets/pic2.jpeg"
+              imgSrc="./assets/pic2.jpeg"
               available=" "
               furnished={true}
               location="Highgate Hill, N19"
@@ -30,7 +30,7 @@ function SimilarProperties(props) {
               price="1000"
             />
             <Card
-              imgSrc="src/assets/pic3.jpg"
+              imgSrc="./assets/pic3.jpg"
               available=" "
               furnished={true}
               location="Highgate Hill, N19"

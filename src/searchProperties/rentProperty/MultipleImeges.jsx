@@ -160,7 +160,7 @@ function MultipleImeges({rooms}) {
         </div>
         {/* <div className="flex md:flex-row flex-col pt-2 gap-5">
           <Card
-            imgSrc="src/assets/pic1.jpeg"
+            imgSrc="./assets/pic1.jpeg"
             available=" "
             furnished={true}
             location="Royal Drive, N11"
@@ -169,7 +169,7 @@ function MultipleImeges({rooms}) {
             price="2000"
           />
           <Card
-            imgSrc="src/assets/pic2.jpeg"
+            imgSrc="./assets/pic2.jpeg"
             available=" "
             furnished={true}
             location="Highgate Hill, N19"
@@ -178,7 +178,7 @@ function MultipleImeges({rooms}) {
             price="1000"
           />
           <Card
-            imgSrc="src/assets/pic3.jpg"
+            imgSrc="./assets/pic3.jpg"
             available=" "
             furnished={true}
             location="Highgate Hill, N19"
@@ -187,7 +187,7 @@ function MultipleImeges({rooms}) {
             price="1000"
           />
           <Card
-            imgSrc="src/assets/pic1.jpeg"
+            imgSrc="./assets/pic1.jpeg"
             available=" "
             furnished={true}
             location="Royal Drive, N11"
@@ -199,7 +199,7 @@ function MultipleImeges({rooms}) {
 
         {/* <div className="flex md:flex-row flex-col pt-2 gap-5">
           <Card
-            imgSrc="src/assets/pic1.jpeg"
+            imgSrc="./assets/pic1.jpeg"
             available=" "
             furnished={true}
             location="Royal Drive, N11"
@@ -208,7 +208,7 @@ function MultipleImeges({rooms}) {
             price="2000"
           />
           <Card
-            imgSrc="src/assets/pic2.jpeg"
+            imgSrc="./assets/pic2.jpeg"
             available=" "
             furnished={true}
             location="Highgate Hill, N19"
@@ -217,7 +217,7 @@ function MultipleImeges({rooms}) {
             price="1000"
           />
           <Card
-            imgSrc="src/assets/pic3.jpg"
+            imgSrc="./assets/pic3.jpg"
             available=" "
             furnished={true}
             location="Highgate Hill, N19"
@@ -226,7 +226,7 @@ function MultipleImeges({rooms}) {
             price="1000"
           />
           <Card
-            imgSrc="src/assets/pic1.jpeg"
+            imgSrc="./assets/pic1.jpeg"
             available=" "
             furnished={true}
             location="Royal Drive, N11"
@@ -238,7 +238,7 @@ function MultipleImeges({rooms}) {
 
         {/* <div className="flex md:flex-row flex-col pt-2 gap-5">
           <Card
-            imgSrc="src/assets/pic1.jpeg"
+            imgSrc="./assets/pic1.jpeg"
             available=" "
             furnished={true}
             location="Royal Drive, N11"
@@ -248,7 +248,7 @@ function MultipleImeges({rooms}) {
           />
 
           <Card
-            imgSrc="src/assets/pic2.jpeg"
+            imgSrc="./assets/pic2.jpeg"
             available=" "
             furnished={true}
             location="Highgate Hill, N19"
@@ -258,7 +258,7 @@ function MultipleImeges({rooms}) {
           />
 
           <Card
-            imgSrc="src/assets/pic3.jpg"
+            imgSrc="./assets/pic3.jpg"
             available=" "
             furnished={true}
             location="Highgate Hill, N19"
@@ -268,7 +268,7 @@ function MultipleImeges({rooms}) {
           />
 
           <Card
-            imgSrc="src/assets/pic1.jpeg"
+            imgSrc="./assets/pic1.jpeg"
             available=" "
             furnished={true}
             location="Royal Drive, N11"
@@ -280,7 +280,7 @@ function MultipleImeges({rooms}) {
 
         {/* <div className="flex md:flex-row flex-col pt-2 gap-5">
           <Card
-            imgSrc="src/assets/pic1.jpeg"
+            imgSrc="./assets/pic1.jpeg"
             available=" "
             furnished={true}
             location="Royal Drive, N11"
@@ -290,7 +290,7 @@ function MultipleImeges({rooms}) {
           />
 
           <Card
-            imgSrc="src/assets/pic2.jpeg"
+            imgSrc="./assets/pic2.jpeg"
             available=" "
             furnished={true}
             location="Highgate Hill, N19"
@@ -300,7 +300,7 @@ function MultipleImeges({rooms}) {
           />
 
           <Card
-            imgSrc="src/assets/pic3.jpg"
+            imgSrc="./assets/pic3.jpg"
             available=" "
             furnished={true}
             location="Highgate Hill, N19"
@@ -310,7 +310,7 @@ function MultipleImeges({rooms}) {
           />
 
           <Card
-            imgSrc="src/assets/pic1.jpeg"
+            imgSrc="./assets/pic1.jpeg"
             available=" "
             furnished={true}
             location="Royal Drive, N11"
@@ -322,7 +322,7 @@ function MultipleImeges({rooms}) {
 
         {/* <div className="flex md:flex-row flex-col pt-2 gap-5">
           <Card
-            imgSrc="src/assets/pic1.jpeg"
+            imgSrc="./assets/pic1.jpeg"
             available=" "
             furnished={true}
             location="Royal Drive, N11"
@@ -332,7 +332,7 @@ function MultipleImeges({rooms}) {
           />
 
           <Card
-            imgSrc="src/assets/pic2.jpeg"
+            imgSrc="./assets/pic2.jpeg"
             available=" "
             furnished={true}
             location="Highgate Hill, N19"
@@ -342,7 +342,7 @@ function MultipleImeges({rooms}) {
           />
 
           <Card
-            imgSrc="src/assets/pic3.jpg"
+            imgSrc="./assets/pic3.jpg"
             available=" "
             furnished={true}
             location="Highgate Hill, N19"
@@ -352,7 +352,7 @@ function MultipleImeges({rooms}) {
           />
 
           <Card
-            imgSrc="src/assets/pic1.jpeg"
+            imgSrc="./assets/pic1.jpeg"
             available=" "
             furnished={true}
             location="Royal Drive, N11"

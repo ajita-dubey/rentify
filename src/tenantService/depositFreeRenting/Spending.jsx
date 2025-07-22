@@ -32,7 +32,7 @@ function Spending() {
             </div>
           </div>
           <div className=" pt-10 md:w-1/2">
-            <img src="src/assets/banner.jpg" className="rounded-lg" />
+            <img src="./assets/banner.jpg" className="rounded-lg" />
           </div>
         </div>
       </section>

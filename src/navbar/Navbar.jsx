@@ -16,7 +16,7 @@ function Navbar() {
         <div className="flex md:flex-row flex-col relative md:items-center gap-x-20 w-full">
           <Link to={"/"} className="flex items-center gap-x-2 ">
             <img
-              src="src/assets/logo.jpeg"
+              src="./assets/logo.jpeg"
               className="h-10 w-10 aspect-square"
             />
             <span className="text-xl font-medium uppercase">Rentify</span>
@@ -32,7 +32,7 @@ function Navbar() {
                 title="Search properties"
                 option={["properties to rent", "properties for sale"]}
                 dropDownNumber="1"
-                optionLinks={["/rent", "/sale"]}
+                optionLinks={["/rent/delhi", "/sale/delhi"]}
               />
               <NavbarDropDown
                 title="For landlords"

@@ -25,7 +25,7 @@ function AsideNavbar() {
       <div className="w-full flex justify-between items-center py-3 px-3 lg:flex-col h-full">
         {/* Logo */}
         <div className="flex items-center gap-2 lg:pt-5">
-          <img src="src/assets/logo.jpeg" className="h-10 w-10 aspect-square" />
+          <img src="./assets/logo.jpeg" className="h-10 w-10 aspect-square" />
           <span className="text-xl font-medium uppercase">Rentify</span>
         </div>
 

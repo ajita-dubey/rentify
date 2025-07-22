@@ -26,7 +26,7 @@ function GetRent() {
        </div>
   </div>
   <div className= " md:w-1/2">
-    <img src="src/assets/landlords-advanced-rent.jpg" className="rounded-lg" />
+    <img src="./assets/landlords-advanced-rent.jpg" className="rounded-lg" />
   </div>
 </div>
 </section>

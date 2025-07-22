@@ -52,7 +52,7 @@ function MoreBuyers() {
                  <img
                    alt=""
                    class="ml-auto w-full rounded-md object-cover marker:max-w-full md:max-h-[300px]"
-                   src="src/assets/partner-agent.jpg"
+                   src="./assets/partner-agent.jpg"
                  />
                </div>
              </div>

@@ -27,7 +27,7 @@ function NewStock() {
           </div>
       </div>
       <div className="  pt-3 md:w-1/2">
-        <img src="src/assets/client-img.png" className="rounded-lg" />
+        <img src="./assets/client-img.png" className="rounded-lg" />
       </div>
     </div>
   </section>
